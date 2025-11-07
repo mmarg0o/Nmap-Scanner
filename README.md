@@ -1,13 +1,16 @@
 #Nmap Scanner#
+
 A small, easy to use Python wrapper around nmap for quick port scanning practice.
 It scans a target and saves results to a CSV file.
 
 ##Features##
+
 Simple interactive CLI using input()
 Scans a port range (default 1-1024)
 Saves scan results to a CSV (host, proto, port, state)
 
 ##Requirements##
+
 Python 3.7+
 Nmap installed on the system (the nmap executable must be available).
 
